@@ -7,7 +7,6 @@
     color: white;
 }
 
-.boton::before{
-    content: 'Hecho';
-    visibility: visible;
+.boton:hover:before{
+    content: '¡Hecho!';
 }
